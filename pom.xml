@@ -111,6 +111,9 @@
 		<jackson.version>2.12.1</jackson.version>
 		<jakarta.xml-bind.version>2.3.3</jakarta.xml-bind.version>
 
+		<!-- Messaging -->
+		<apache.kafka.version>2.7.0</apache.kafka.version>
+
 		<!-- Testing -->
 		<junit.jupiter.version>5.7.1</junit.jupiter.version>
 
@@ -131,6 +134,7 @@
 		<jakarta-validation.version>${jakarta.validation-api.version}</jakarta-validation.version>
 		<jakarta-xml-bind.version>${jakarta.xml-bind.version}</jakarta-xml-bind.version>
 		<jackson-bom.version>${jackson.version}</jackson-bom.version>
+		<kafka.version>${apache.kafka.version}</kafka.version>
 		<junit-jupiter.version>${junit.jupiter.version}</junit-jupiter.version>
 
 		<!-- Spring Boot plugin overrides -->

@@ -64,6 +64,13 @@
 			<artifactId>jackson-dataformat-xml</artifactId>
 		</dependency>
 
+		<!-- Messaging -->
+
+		<dependency>
+			<groupId>org.apache.kafka</groupId>
+			<artifactId>kafka-clients</artifactId>
+		</dependency>
+
 		<!-- Provided -->
 
 		<dependency>
